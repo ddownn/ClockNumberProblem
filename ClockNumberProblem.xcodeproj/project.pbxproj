@@ -15,6 +15,7 @@
 		7DD705EA254FC0830050D3AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD705E8254FC0830050D3AE /* LaunchScreen.storyboard */; };
 		7DD705F5254FC0830050D3AE /* ClockNumberProblemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD705F4254FC0830050D3AE /* ClockNumberProblemTests.swift */; };
 		7DD70600254FC0830050D3AE /* ClockNumberProblemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD705FF254FC0830050D3AE /* ClockNumberProblemUITests.swift */; };
+		7DD70611254FC0BE0050D3AE /* ClockFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD70610254FC0BE0050D3AE /* ClockFace.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7DD705FB254FC0830050D3AE /* ClockNumberProblemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockNumberProblemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD705FF254FC0830050D3AE /* ClockNumberProblemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockNumberProblemUITests.swift; sourceTree = "<group>"; };
 		7DD70601254FC0830050D3AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DD70610254FC0BE0050D3AE /* ClockFace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockFace.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				7DD705DF254FC0820050D3AE /* SceneDelegate.swift */,
 				7DD705E1254FC0820050D3AE /* ViewController.swift */,
 				7DD705E3254FC0820050D3AE /* Main.storyboard */,
+				7DD70610254FC0BE0050D3AE /* ClockFace.swift */,
 				7DD705E6254FC0830050D3AE /* Assets.xcassets */,
 				7DD705E8254FC0830050D3AE /* LaunchScreen.storyboard */,
 				7DD705EB254FC0830050D3AE /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DD70611254FC0BE0050D3AE /* ClockFace.swift in Sources */,
 				7DD705E2254FC0820050D3AE /* ViewController.swift in Sources */,
 				7DD705DE254FC0820050D3AE /* AppDelegate.swift in Sources */,
 				7DD705E0254FC0820050D3AE /* SceneDelegate.swift in Sources */,
@@ -439,6 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B22XC9R8M7;
 				INFOPLIST_FILE = ClockNumberProblem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B22XC9R8M7;
 				INFOPLIST_FILE = ClockNumberProblem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
